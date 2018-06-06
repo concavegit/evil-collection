@@ -57,7 +57,7 @@
   (interactive "P")
   (if count
       (dotimes (_ count nil)
-	(pdf-view-next-line-or-next-page 1))
+        (pdf-view-next-line-or-next-page 1))
     (pdf-view-next-line-or-next-page 1)))
 
 (defun evil-collection-pdf-view-previous-line-or-previous-page (&optional count)
@@ -65,7 +65,7 @@
   (interactive "P")
   (if count
       (dotimes (_ count nil)
-	(pdf-view-previous-line-or-previous-page 1))
+        (pdf-view-previous-line-or-previous-page 1))
     (pdf-view-previous-line-or-previous-page 1)))
 
 (defun evil-collection-pdf-view-goto-page (&optional page)
